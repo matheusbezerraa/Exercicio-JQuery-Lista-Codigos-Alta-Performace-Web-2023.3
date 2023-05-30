@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+/*header*/
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+}
+.logo-title-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.title-container{
+    position: relative;
+    left: -30px;
+    width: 100%;
+}
+.title-container h1{
+    text-align: center;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+.btn-container{
+    position: fixed;
+    right: 0px;
+    top: 0;
+    width: 50px;
+}
+.btn-container img{
+    width: 50px;
+}
+
+/*main*/
+main{
+    padding: 0 10px;
+    width: 100%;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card-container{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product-title-container{
+
+}
+.product-title{
+    text-align: center;
+}
+.product-pic-container{
+
+}
+.product-pic{
+    width: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contrast {
+    background-color: black;
+    color: white;
+}
+
+.contrast .card-container {
+    background-color: rgb(0, 0, 100);
+}
